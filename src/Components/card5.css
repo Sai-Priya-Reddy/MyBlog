@@ -1,0 +1,57 @@
+.card-full5{
+    width: 600px;
+    height: 200px;
+    margin: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.tag5-heading{
+    padding: 8px 16px;
+    font-family: sans-serif;
+}
+
+.card5-content{
+    color: #000;
+    background-color: #fff;
+    padding: 0.01em 16px;
+}
+
+.card5-travel{
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 16px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.w3-light-grey{
+    color: #000;
+    background-color: #f1f1f1;   
+}
+.w3-margin-bottom{
+    margin-bottom: 16px;
+}
+
+.w3-small{
+    font-size: 12px;
+}
+.w3-tag{
+    background-color: #000;
+    /* color: #fff; */
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.grid-sp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.item1{
+    grid-row: 1 / span 2;
+}

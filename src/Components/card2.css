@@ -1,0 +1,17 @@
+.two{
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.comments-card{
+    float: right;
+    padding: 12px 24px;
+}
+.comments-text-card2{
+    font-weight: bolder;
+    font-family: sans-serif;
+}

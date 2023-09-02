@@ -1,0 +1,29 @@
+.card-three{
+    margin-top: 16px;
+    margin: 16px;
+    float: right;
+    width: 90%;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    
+
+
+}
+.image3{
+    vertical-align: middle;
+    width: 100%;
+    border-style: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+}
+.content3{
+    background-color: #fff;
+    color: #000;
+    padding: 0.01em 16px;
+    position: relative;
+    float: right;
+}
+.title3{
+    font-family: "Raleway", sans-serif;
+}
