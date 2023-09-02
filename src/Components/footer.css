@@ -3,6 +3,7 @@
     height: 200px;
     padding-top: 32px;
     padding-bottom: 32px;
+    position: inherit;
 }
 
 a {

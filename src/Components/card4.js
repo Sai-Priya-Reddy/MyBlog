@@ -18,7 +18,7 @@ export default function Card4() {
       <CardContent>
         <div className="container">
           <List className="list-card">
-            <ListItem button>
+            <ListItem button className="card4-card1">
               <CardMedia
                 className="image3"
                 sx={{ height: "50px", width: "50px" }}
@@ -26,8 +26,8 @@ export default function Card4() {
               />
               <ListItemText primary="Lorem" className="inbox1" />
             </ListItem>
-            <Divider />
-            <ListItem button divider>
+            <Divider  className="line1"/>
+            <ListItem button divider className="card4-card2">
               <CardMedia
                 className="image4"
                 sx={{ height: "50px", width: "50px" }}
@@ -35,7 +35,7 @@ export default function Card4() {
               />
               <ListItemText primary="Lpsum" className="lpsum1" />
             </ListItem>
-            <ListItem button>
+            <ListItem button className="card4-card3">
               <CardMedia
                 className="image5"
                 sx={{ height: "50px", width: "50px" }}
@@ -44,7 +44,7 @@ export default function Card4() {
               <ListItemText primary="Dorum" className="dorum1" />
             </ListItem>
             <Divider light />
-            <ListItem button>
+            <ListItem button className="card4-card4">
               <CardMedia
                 className="image6"
                 sx={{ height: "50px", width: "50px" }}

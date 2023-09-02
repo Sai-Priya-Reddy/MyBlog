@@ -18,7 +18,7 @@ const Item = styled(Paper)(({ theme }) => ({
   
 export default function Card5() {
   return (
-    <Card sx={{ minWidth: 275, backgroundColor: "blue" }}>
+    <Card sx={{ minWidth: 275, backgroundColor: "blue" }} className="cardfull5">
       <CardContent>
         <Typography>
           <h3>Tags</h3>

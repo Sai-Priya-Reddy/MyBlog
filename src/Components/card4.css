@@ -19,13 +19,17 @@
 } */
 .container-card4{
     width: 600px;
-    height: 350px;
+    height: 500px;
     float: right;
     position: relative;
-    top: -700px;
+    top: -900px;
     right: 50px;
 
 }
 .popular{
     margin-left: 20px;
+}
+
+.line1{
+    margin: 20px;
 }
