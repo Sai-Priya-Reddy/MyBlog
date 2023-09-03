@@ -25,7 +25,7 @@ export default function Card2() {
         </div>
 
         <Typography>
-          <p>
+          <p  className="content1">
             Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
             Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
             enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
@@ -35,9 +35,12 @@ export default function Card2() {
           </p>
         </Typography>
       </CardContent>
-      <CardActions>
+      <div className="button-custom1"> 
+       <a href="#">READ MORE</a>
+       </div>
+      {/* <CardActions>
         <Button className="c1-button">Read More</Button>
-      </CardActions>
+      </CardActions> */}
       <Typography>
         <p className="comments-card">
           <span className="comments-text-card2">

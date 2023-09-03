@@ -48,12 +48,12 @@
 
 .grid-sp{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(6);
+    gap: 40px;
 }
 
 .item1{
-    grid-row: 1 / span 2;
+    grid-row: 1 / span ;
 }
 
 .cardfull5{
@@ -62,4 +62,15 @@
     position: relative;
     top: -350px;
     right: -1230px;
+}
+
+.tavel-1{
+    background-color: #000;
+    color: #f1f1f1;
+    padding: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+.custom-style{
+  background-color: #000;
 }

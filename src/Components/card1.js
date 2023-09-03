@@ -1,9 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import * as React from "react";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import woods from "./images/woods.jpg";
 
@@ -35,9 +34,13 @@ export default function card1() {
           </p>
         </Typography>
       </CardContent>
-      <CardActions>
+       <div className="button-custom1"> 
+       <a href="#">READ MORE</a>
+       {/* <button className="read-more2">Read More</button> */}
+       </div>
+      {/* <CardActions>
         <Button className="c1-button">Read More</Button>
-      </CardActions>
+      </CardActions> */}
       <Typography>
         <p className="comments">
           <span className="comments-text">
